@@ -1,0 +1,61 @@
+.container{
+  margin: 2rem ;
+  padding: 2rem auto;
+  width: 30%;
+  height: 33rem;
+  border: 1px solid rgb(167, 163, 163);
+  border-radius: 8px;
+  background-color: rgb(243, 239, 233);
+  
+}
+h2{
+  text-align: center;
+}
+.formContainer{
+  margin: 2rem auto;
+  text-align: center;
+}
+.formInput{
+  margin: 1rem;
+  padding-left: 2rem ;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.1rem;
+}
+label{
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+label:hover{
+  color:rgb(22, 189, 139);
+}
+input{
+  border-radius: 5px ;
+  border: 1px solid #d3d0d0;
+  height: 20px;
+  background-color: #eee;
+  color: darkgoldenrod;
+  font-weight: bolder;
+}
+button{
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 7px;
+  background-color: aquamarine;
+  color: #464545;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+button:hover{
+  background-color:aqua;
+  font-weight: bold;
+  
+}
+p{
+  font-size: 1.2rem;
+  color: rgb(29, 130, 29);
+  font-family: monospace;
+}
